@@ -1,12 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
+import styles from './styles/main.styl'
+import Root from './containers/Root'
+import configureStore from './store/configureStore'
 
-const Example = React.createClass({
-  render() {
-    return (
-      <div>Hello World!</div>
-    )
-  }
-})
+const store = configureStore()
 
-ReactDOM.render(<Example />, document.getElementById("root"))
+render (
+  <Root store={store} />,
+  document.getElementById('root')
+)

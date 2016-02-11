@@ -9,6 +9,7 @@ module.exports = getConfig({
   // is where your fully static site should
   // end up for simple deployment.
   out: 'public',
+  isDev: process.env.NODE_ENV !== 'production',
 
   // This will destroy and re-create your
   // `out` folder before building so you always
