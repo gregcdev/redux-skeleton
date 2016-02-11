@@ -1,4 +1,9 @@
 # redux-skeleton
 Skeleton project for react, redux, and react router.
 
-run npm start for the dev server and npm run build to build into production!
+## Getting Started
+Download the zip file and extract it to the desired location.
+
+##Running the Project
+* Development - npm start
+* Production - npm run build
