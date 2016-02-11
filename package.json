@@ -12,6 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "hjs-webpack": "^7.2.0",
+    "humps": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "normalizr": "^2.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.0",
